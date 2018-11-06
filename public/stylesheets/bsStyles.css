@@ -1,0 +1,294 @@
+.breadcrumb {
+  /*background-color: none !important; 
+  color: #5d8aa8 !important; */
+  background-color: transparent;
+  float: right;
+  /*margin-top: 10px;*/
+}
+.test {
+  background-color: #5d8aa8;
+}
+.buttonTop {
+  width: 80px;
+}
+#submitTop {
+  width: 80px;
+}
+#formTop {
+  /*float: right;*/
+  box-sizing: border-box;
+  /*display: inline-block*/
+  float: right;
+  margin-top: 5px;
+  margin-right: 10%;
+}
+
+section.container {
+  margin-top: 10px;
+  width: auto;
+}
+/*section.xxx {
+  margin-top: 10px;
+}*/
+
+/** {
+    box-sizing: border-box;
+}*/
+
+/* Create two equal columns that floats next to each other */
+/*.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+    margin-right: 5%;
+    ba
+}*/
+
+/* Clear floats after the columns */
+/*.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
+
+.logo img {
+  width: 100%;
+  /*float: left;*/
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+.logo {
+  background-color: black;
+  float: left;
+  /*width: 20%;*/
+  margin-left: 10%;
+  height: 100px;
+  /*margin-top: 5px;*/
+  /*padding-top: -5px;*/
+  /*margin-top: -5px;*/
+}
+.container {
+  background-color: blue;
+  /*margin-bottom: -20px;*/
+  /*padding-bottom: -50px;*/
+  /*height: 100px;
+  max-height: 250px;*/
+  /*float: left;*/
+  /*padding-top: 0px;*/
+  /*margin-top: -10px;*/
+}
+.log.col-sm-4 {
+  background-color: #ffbf00;/*yellow*/
+  /*float: left;*/
+  /*padding-top: -10px;*/
+  /*margin-top: -10px;*/
+}
+.logo.row {
+  /*float: left;*/
+  background-color: #efdecd;/*sl pink*/
+  /*padding-top: -10px;*/
+  /*margin-top: -10px;*/
+}
+.row {
+  background-color: #e32636;/*red*/
+}
+
+.logoText {
+  padding-top: 25px;
+  background-color: #f0f8ff;/*sl blue*/
+}
+
+/*dnw*/
+/*.btn-group.dropdown.d2 {
+  float: left;
+  box-sizing: border-box;
+  background-color: black;
+}*/
+/*.btn-group.d2 {
+  float: left;
+  box-sizing: border-box;
+  background-color: black;
+}*/
+.d2 {
+  float: left;
+  box-sizing: border-box;
+  background-color: black;
+}
+/*.btn-group.d1 {
+  float: left;
+  box-sizing: border-box;
+  background-color: black;
+}*/
+.d1 {
+  float: left;
+  box-sizing: border-box;
+  background-color: black;
+  color: black;
+}
+
+.navigation ul.nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  .navigation ul.nav li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .navigation ul.nav li:first-child {
+    padding-left: 0;
+  }
+  .navigation ul.nav li:last-child {
+    padding-right: 0;
+  }
+  .navigation ul.nav li.last {
+    padding-right: 0;
+  }
+
+.navigation ul.nav li i {
+  color: #00FFFF;
+  padding-right: .5em;
+}
+
+.navigation ul.nav li {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  display: block;
+  text-decoration: none;
+  /*padding: 5px 10px;*/
+  color: #33E6BF;
+}
+/*.navigation ul.nav li:hover {
+  background: #414141;
+}
+.navigation ul.nav li:hover a {
+  color: #f8c64c;
+}*/
+
+/*.nav:after {
+  content: "";
+  clear: both;
+}
+.nav:bef {
+  content: "";
+  clear: both;
+}*/
+/*.breadcrumb > li + li:before {
+  content: "";
+  padding-right: 0;
+  border-radius: 0;
+}*/
+/*green*/
+/*.breadcrumb:hover {
+  background: #008000 !important; 
+}
+*/
+/*.dropdown {
+  background-color: black;
+  color: black;
+}
+.btn-info {
+  color: black;
+  background-color: black;
+}*/
+/*this one changed the animation when dropdown items show up*/
+/*.dropdown-toggle {
+  float: left;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  background-color: black;
+  color: black;
+}
+.dropdown-toggle::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.dropdown-toggle:hover {
+  background: #008000 !important; 
+}*/
+
+.glyphicon {
+    font-size: 25px;
+    color: blue;
+}
+.icon.container {
+  height: 50px;
+}
+.icon {
+  height: 50px;
+  background-color: black;
+}
+
+.navb {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    /*z-index: -1;*/
+}
+
+.navb a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropd {
+    float: left;
+    overflow: hidden;
+}
+
+.dropd .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navb a:hover, .dropd:hover .dropbtn {
+    background-color: red;
+}
+
+.dropd-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropd-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropd-content a:hover {
+    background-color: #ddd;
+}
+
+.dropd:hover .dropd-content {
+    display: block;
+}

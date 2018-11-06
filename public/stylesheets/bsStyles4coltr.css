@@ -1,0 +1,160 @@
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+html {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+a img {
+  border: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}*/
+
+
+/*c1 wood gray c2 br li green blue*/
+.c1.container {
+  background-color: #c19a6b;
+  /*padding-left: 0;*/
+  /*padding-right: 0px;*/
+  /*margin-right: 0;*/
+  /*margin-left: -10px;*/
+}
+.c2.container {
+  background-color: #71bc78;
+}
+/*.container {
+  background-color: #c19a6b;
+}*/
+
+/*r1 water li pink r2 gray purple*/
+.r1.row {
+  background-color: #efdecd;
+/*  margin-left: 0;*/
+}
+.r2.row {
+  background-color: #98777b;
+}
+
+/*coltl=col top left*/
+.colt {
+  padding-right: 0;
+  background-color: #004225; 
+}
+.coltl {
+  padding-left: 0;
+  /*padding-right: 0;*/
+  background-color: #87a96b;
+}
+/*u may want to investigate here why this acted like a row had some neg margin*/
+.coltl1 {
+  background-color: #ffff00;
+  padding-left: 0;
+}
+.coltl2 {
+  background-color: #b5a642;
+  padding-top: 10px;
+}
+/*.coltl2 img {
+  width: 50% !important;
+  width: 50px !important;
+}*/
+/*dont know why have to add p0 here but not the sub col, col might be shrinked or so*/
+.coltr {
+    background-color: #66ff00;
+    padding-right: 0;
+}
+/*bug coltr2 has something looks like offset i can try putting another col inside and col12*/
+.coltr1 {
+  background-color: #0095b6;
+  /*padding-left: 0;
+  padding-right: 0;*/
+  z-index: 2;
+  /*float: right;*/
+}
+.coltr2 {
+  background-color: #00008b;
+  /*background-color: none !important;*/
+  /*padding-right: 0;*/
+  /*padding-left: 0;*/
+  z-index: 1;
+}
+
+.f0 input {
+  width: 27.5% ;
+/*padding-right: 0;
+  margin-right: 0;*/
+  float: right;
+}
+/*padding ll break the center align for the text in submit button*/
+/*1% fixed bug text in button is not center at switch of breakpt*/
+.fi3 {
+  /*position: absolute;*/
+  /*position: relative;*/
+  width: 20% !important;
+  /*width: 50px !important;*/
+  /*width: auto !important;*/
+  /*text-align: center !important;*/
+  /*padding: auto;*/
+  /*padding-top: 1psx;*/
+  padding-left: 1%;
+  /*padding: 0;*/
+  /*margin-top: 1px;
+  margin: auto;*/
+}
+
+form {
+	/*margin-left: 0;*/
+	padding-left: 0;
+	margin-left: -100px;
+	/*width: 100%;*/
+	width: auto;
+}
+form:before {
+	margin-left: 0;
+	padding-left: 0;
+}
+.coltr2i {
+	background-color: black;
+	padding-left: 0;
+}
+.coltr2i:before {
+	background-color: black;
+	padding-left: 0;
+}

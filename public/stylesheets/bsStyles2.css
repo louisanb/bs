@@ -1,0 +1,558 @@
+
+/*dn= does not; dnw=does not work crt=creat af=after bet=between*/
+/*sorry my brain works faster with simpler abrv, we can come up a better way later if u dn like this. also to keep things short sometimes i dn follow grammers*/
+/*sec=section; rn=rowNav .row@nav sec; nl=navLeft left sec of nav sec;nr=navRight; r1=row1 first row in the code;r2 n/a; navDrpi=navDropdownIcon; m1=menu1 first menu at nav sec; m1b=menu1button button in menu1 sec; ni=navLeftIcon home icon; br=bright li=light w=water d=dark b=blue*/
+
+/*i dn like css var but i guess i can take advantage of btstrp mixins*/
+/*1,d green.2,fir web bg yellow.3,gray green.4,w red pink.5,
+water d blue.6,dirt yellow.7,paint water red.
+8,sp li grass green.9,water li purple.
+10,d d green.11,d screen blue.12,gray*/
+.col-md-1 {
+  background-color: #008000;
+}
+.col-md-2 {
+  background-color: #fbec5d;
+}
+.col-md-3 {
+  background-color: #87a96b;
+}
+.col-md-4 {
+  background-color: #de5d83;
+}
+.col-md-5 {
+  background-color: #0095b6;
+}
+.col-md-6 {
+  background-color: #b5a642;
+}
+.col-md-7 {
+  background-color: #cb4154;
+}
+.col-md-8 {
+  background-color: #66ff00;
+}
+.col-md-9 {
+  background-color: #bf94e4;
+}
+.col-md-10 {
+  background-color: #004225; 
+}
+.col-md-11 {
+  background-color: #00008b; 
+}
+.col-md-12 {
+  background-color: #848482; 
+}
+/*c1 wood gray c2 br li green blue*/
+.c1.container {
+  background-color: #c19a6b;
+  /*padding-left: 0;*/
+  /*padding-right: 0px;*/
+  /*margin-right: 0;*/
+  /*margin-left: -10px;*/
+}
+.c2.container {
+  background-color: #71bc78;
+}
+/*.container {
+  background-color: #c19a6b;
+}*/
+
+/*r1 water li pink r2 gray purple*/
+.r1.row {
+  background-color: #efdecd;
+/*  margin-left: 0;*/
+}
+.r2.row {
+  background-color: #98777b;
+}
+/*colt w genral li green old d d green #004225 coltl p green colt1 br yellow colt2 dirt yellow*/
+/*coltl=col top left*/
+.colt {
+  padding-right: 0;
+  background-color: #a4c639; 
+}
+.coltl {
+  padding-left: 0;
+  /*padding-right: 0;*/
+  background-color: #87a96b;
+}
+/*u may want to investigate here why this acted like a row had some neg margin*/
+.coltl1 {
+  background-color: #ffff00;
+  padding-left: 0;
+}
+.coltl2 {
+  background-color: #b5a642;
+  padding-top: 10px;
+}
+/*.coltl2 img {
+  width: 50% !important;
+  width: 50px !important;
+}*/
+/*coltr sp li grass green; coltr1 li gray, old: w d blue #0095b6; coltr2 (d) screen blue*/
+/*dont know why have to add p0 here but not the sub col, col might be shrinked or so*/
+.coltr {
+    background-color: #66ff00;
+    padding-right: 0;
+}
+/*bug coltr2 has something looks like offset i can try putting another col inside and col12*/
+.coltr1 {
+  background-color: #b2beb5;
+  /*padding-left: 0;
+  padding-right: 0;*/
+  z-index: 2;
+  /*float: right;*/
+}
+.coltr2 {
+  background-color: #00008b;
+  /*background-color: none !important;*/
+  padding-right: 0;
+  /*padding-left: 0;*/
+  z-index: 1;
+}
+
+/*.f0 input {
+    width: 50% !important;
+}*/
+/*dnw*/
+/*.f1 {
+  display: inine-block;
+}
+.f1 input {
+  display: inine-block;
+}*/
+/*.fi1 input, .fi2 input {
+  width: 10% !important;
+}*/
+/*f7=fi3 f5=fi1*/
+/*.f7 input .f5 {
+  width: 10% !important;
+}*/
+/*.f0 {
+  float: right;
+}*/
+/*float put box together and to the right in the inner pull right get ride of the space at outer*/
+.f0 input {
+  width: 27.5% ;
+/*padding-right: 0;
+  margin-right: 0;*/
+  float: right;
+}
+/*padding ll break the center align for the text in submit button*/
+/*1% fixed bug text in button is not center at switch of breakpt*/
+.fi3 {
+  /*position: absolute;*/
+  /*position: relative;*/
+  width: 20% !important;
+  /*width: 50px !important;*/
+  /*width: auto !important;*/
+  /*text-align: center !important;*/
+  /*padding: auto;*/
+  /*padding-top: 1psx;*/
+  padding-left: 1%;
+  /*padding: 0;*/
+  /*margin-top: 1px;
+  margin: auto;*/
+}
+/*# id target css ll look weird f8, f7 input*/
+/*#submitTop {
+  width: 20% !important;
+  text-align: center !important;
+}
+#formTop {
+  width: 30% ;
+  padding-right: 0;
+  margin-right: 0;
+  float: right;
+}*/
+
+/*bug coltr2 disappeard at xs*/
+/*@media (min-width: 30em) {
+  .coltr2 {
+   
+  } 
+}*/
+
+ /*display: none;*/
+ /*display: hidden;*/
+
+.glyphicon {
+    font-size: 25px;
+    color: blue;
+}
+.icon.container {
+  height: 50px;
+}
+/*br li w blue*/
+.icon {
+  height: 50px;
+  background-color: #b2ffff;
+}
+
+/*black*/
+.navBar {
+    /*overflow: hidden;*/
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    /*z-index: -1;*/
+}
+.navBar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropd {
+    float: left;
+    overflow: hidden;
+}
+.dropd .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    /*padding-right: 80px;*/
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navBar a:hover, .dropd:hover .dropbtn {
+    background-color: red;
+}
+/*.navBar a:hover .m1 {
+    background-color: red;
+}
+.dropd:hover .m1 {
+    background-color: red;
+}*/
+/*.m1, .m2, .m3, .m4, .m5:hover {
+    background-color: red;
+}*/
+.m1:hover, .m2:hover, .m3:hover, .m4:hover, .m5:hover, .navDrpi:hover {
+  background-color: red;
+}
+/*.m5:hover, .navDrpi:hover {
+  background-color: red;
+}*/
+
+/*.navDrpi {
+    background-color: red;
+}*/
+/*blue gray like ur bed sheet*/
+.m1, .m2, .m3, .m4, .m5 {
+  padding-left: 0;
+  background-color: #a3c1ad;
+}
+/*w pink red*/
+.m1b, .m2b, .m3b, .m4b, .m5b {
+  padding-left: 0;
+  background-color: #ff4040;
+}
+.nl, .ni, .nr, .navDrpi {
+  padding-left: 0;
+}
+/*br w li blue*/
+.nl {
+  background-color: #00ffff;
+}
+/*li gray*/
+.ni {
+  background-color: #b2beb5;  
+  /*align-content: left;*/
+  /*margin-right: 90%;*/
+}
+/*w d orange*/
+.nr {
+  background-color: #ff8c00;
+}
+/*br girlly pink*/
+.navCtnr {
+  background-color: #ff00ff;
+}
+/*dirty pink red*/
+.navRow {
+  background-color: #cc6666;
+}
+/*red wood gray kind of like wood but with a little red*/
+.navDripi {
+  background-color: #a67b5b;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+.caret {
+  /*padding-top: 20px;*/
+  /*padding: auto;*/
+  /*background-color: black;*/
+  margin-top: 20px;
+}
+.s {
+  margin-top: 20px;
+  /*margin-right: 20px;*/
+}
+/*well this should be way on the top but im not gonna change it now*/
+/*.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12  {
+  padding-left: 0;
+}*/
+/*.test2:hover {
+    background-color: red;
+}*/
+/*white*/
+.dropd-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    /*min-width: 160px;*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropd-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropd-content a:hover {
+    background-color: #ddd;
+}
+.dropd:hover .dropd-content {
+    display: block;
+}
+
+/*@media (min-width: 47em) {
+  .dropd .dropbtnt {
+    width: 300px;
+    text-align: right;
+  } 
+}*/
+
+ /* .di {
+    padding-left: 30px;
+    margin-left: 30px;
+    color: black;
+  }*/
+
+/*@media screen and (min-width: 600px) {
+  padding-left: 30px;
+  margin-left: 30px;
+  color: black;
+ }*/
+
+/*small*/
+.cdi:after {
+  content: '>';
+  font: 17px "Consolas", monospace;
+  color: #333;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 25px;
+  /*margin-left: 400px;*/
+  margin-left: 90%;
+  /*padding: 0 0 2px;*/
+  position: absolute;
+  /*position: relative;*/
+  pointer-events: none;
+  /*margin-right: 10px;*/
+  /*padding-right: 0;*/
+}
+
+
+@media (min-width: 45em) {
+  .navigation {
+  background: #5e767f;/*footer colr*/
+  }
+  .navigation ul.nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    *zoom: 1;
+  }
+  .navigation ul.nav li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .navigation ul.nav li:first-child {
+    padding-left: 0;
+  }
+  .navigation ul.nav li:last-child {
+    padding-right: 0;
+  }
+  .navigation ul.nav li.last {
+    padding-right: 0;
+  }
+  .cdi:after {
+  content: '>';
+  font: 17px "Consolas", monospace;
+  color: #333;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 5px;
+  margin-left: 135px;
+  /*padding: 0 0 2px;*/
+  position: absolute;
+  pointer-events: none;
+  /*margin-right: 0;*/
+ }
+}
+
+
+/*.navigation ul.nav li i {
+  color: #00FFFF;
+  padding-right: .5em;
+}
+*/
+.navigation ul.nav li a {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  display: block;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #33E6BF;
+}
+
+.navigation ul.nav li a:hover {
+  background: #414141;
+}
+
+.navigation ul.nav li a:hover a {
+  color: #f8c64c; 
+}
+
+.h {
+  color: #00FFFF;
+  padding-right: .5em;
+}
+
+
+.drpdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drpdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drpdown-content a:hover {background-color: #f1f1f1}
+
+.drpdown:hover .drpdown-content {
+    display: block;
+}
+
+.drpdown:hover .drpbtn {
+    background-color: #3e8e41;
+}
+.drpbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    margin-right: 0;
+}
+.drpdown {
+    position: relative;
+    /*position: absolute;*/
+    display: inline-block;
+    /*width: 300px;*/
+    /*height: 250px;*/
+    /*margin-right: 0;*/
+}
+.drpdown:after {
+  content: '>';
+  font: 17px "Consolas", monospace;
+  color: #333;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  /*right: 15px;*/
+  /*Adjust for position however you want*/
+  top: 17px;
+  margin-left: 1px;
+  /*margin-right: -15px;*/
+  /*padding-top: 18px;*/
+  padding: 0 0 2px;
+  /*border-bottom: 1px solid #999;*/
+  /*left line */ 
+  position: absolute;
+  /*position: relative;*/
+  pointer-events: none;
+  margin-right: 0;
+}
+
+.ml0 {
+  background-color: #008000;
+}
+.ml1 {
+  background-color: #fbec5d;
+}
+.ml1a {
+  background-color: #87a96b;
+}
+.ml1b {
+  background-color: #de5d83;
+}
+.ml2a {
+  background-color: #0095b6;
+}
+.ml2b {
+  background-color: #b5a642;
+}
+.ml2c {
+  background-color: #cb4154;
+}
+.ml2d {
+  background-color: #66ff00;
+}
+.ml2e {
+  background-color: #bf94e4;
+}
+.ml2f {
+  background-color: #004225; 
+}
+.ml2g {
+  background-color: #00008b; 
+}
+.ml2h {
+  background-color: #848482; 
+}
+.ml2 {
+  background-color: #008000;
+}
+.ml3 {
+  background-color: #fbec5d;
+}
+.ml3a{
+  background-color: #87a96b;
+}
+.ml3b{
+  background-color: #de5d83;
+}

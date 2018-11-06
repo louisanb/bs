@@ -1,0 +1,118 @@
+/*1,green.2,br yellow.3,gray green.4,w red pink.5,
+water d blue.6,dirt yellow.7,paint water red.
+8,sp li grass green.9,water li purple.
+10,d d green.11,d screen blue.12,gray*/
+/*3,brblue.4,
+.col-md-3 {
+  background-color: #0000ff;
+}
+
+.col-md-1 {
+  background-color: #008000;
+}
+.col-md-2 {
+  background-color: #ffff00;
+}
+.col-md-3 {
+  background-color: #87a96b;
+}
+.col-md-4 {
+  background-color: #de5d83;
+}
+.col-md-5 {
+  background-color: #0095b6;
+}
+.col-md-6 {
+  background-color: #b5a642;
+}
+.col-md-7 {
+  background-color: #cb4154;
+}
+.col-md-8 {
+  background-color: #66ff00;
+}
+.col-md-9 {
+  background-color: #bf94e4;
+}
+.col-md-10 {
+  background-color: #004225; 
+}
+.col-md-11 {
+  background-color: #00008b; 
+}
+.col-md-12 {
+  background-color: #848482; 
+}
+/*.col-md-5 {
+  background-color: #cd9575;
+}
+.col-md-3 {
+  background-color: #0000ff;
+}
+.col-md-7 {
+  background-color: #cb4154;
+}
+.col-md-2 {
+  background-color: #ffff00;
+}
+.col-md-10 {
+  background-color:#5d8aa8;
+}*/
+/*c1 wood gray c2 br li green blue*/
+.c1.container {
+  background-color: #c19a6b;
+  /*padding-left: 0;*/
+  /*padding-right: 0px;*/
+  /*margin-right: 0;*/
+  /*margin-left: -10px;*/
+}
+.c2.container {
+  background-color: #71bc78;
+}
+/*.container {
+  background-color: #c19a6b;
+}*/
+
+/*r1 water li pink r2 gray purple*/
+.r1.row {
+  background-color: #efdecd;
+/*  margin-left: 0;*/
+}
+.r2.row {
+  background-color: #98777b;
+}
+
+/*coltl=col top left*/
+.colt {
+  /*padding-left: 0;*/
+}
+.coltl {
+  padding-left: 0;
+  /*padding-right: 0;*/
+}
+/*u may want to investigate here why this acted like a row had some neg margin*/
+.coltl1 {
+  margin-right: 0;
+}
+/*.coltl2 {
+  margin-left: 0;
+}*/
+/*dont know why have to add p0 here but not the sub col it ll probably change the px % or each col*/
+.coltr {
+    /*background-color: black;*/
+    padding-right: 0;
+}
+/*.coltr1 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.coltr2 {
+  padding-right: 0;
+  padding-left: 0;
+}
+*/
+
+
+
+
+
